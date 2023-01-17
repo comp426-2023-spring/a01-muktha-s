@@ -2,7 +2,7 @@
   "name": "a01-webserver",
   "version": "1.0.0",
   "description": "This assignment will help you get started working with Node.js by hacking your way through creating a webserver from scratch.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "node server.js --port=5555"
   },
@@ -10,6 +10,15 @@
     "type": "git",
     "url": "git+https://github.com/comp426-2023-spring/a01-muktha-s.git"
   },
+  "keywords": [
+      "web",
+      "server",
+      "port",
+      "node",
+      "fs",
+      "args",
+      "http"
+  ],
   "author": "muktha-s",
   "license": "GPL-3.0-or-later",
   "bugs": {
@@ -18,5 +27,5 @@
   "homepage": "https://github.com/comp426-2023-spring/a01-muktha-s#readme",
   "dependencies": {
     "minimist": "^1.2.7"
-  },
+  }
 }
